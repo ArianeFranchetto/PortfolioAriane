@@ -1,0 +1,33 @@
+[ 
+   {
+        "title": "Pokedex",
+        "img": "https://cdn.weasyl.com/~chocofoxcolin/submissions/1411066/61f177f222690ff74ec0ebfab827a1fafe6010411cfefe683db517d8071ed567/chocofoxcolin-pokemon-icon-dragonite.png",
+        "href": "",
+        "description": "Vue3 + Vite"
+    },
+    {
+        "title": "Login Page",
+        "img": "https://img.freepik.com/vetores-gratis/design-do-modelo-da-pagina-de-login-do-site_1017-30785.jpg",
+        "href": "",
+        "description": "Vue3"
+
+    },
+    {
+        "title": "Sistema de Estacionar",
+        "img": "https://cdn-icons-png.flaticon.com/512/1643/1643662.png",
+        "href": "",
+        "description": "Vue3 + Vue Router"
+    },
+    {
+        "title": "Mario Game",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXZ6Vw-Br-RRvMstTlTqbeGXw4PNepXRrTzg&usqp=CAU",
+        "href": "",
+        "description": "JavaScript"
+    },
+    {
+        "title": "Site de Vídeos",
+        "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/31a97258737059.5a07705b4b565.gif",
+        "href": "",
+        "description": "Vue3 + Axios"
+    }
+]
