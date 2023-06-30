@@ -13,20 +13,20 @@
 
     },
     {
-        "title": "Sistema de Estacionar",
-        "img": "https://cdn-icons-png.flaticon.com/512/1643/1643662.png",
+        "title": "Jogo da Forca",
+        "img": "https://img.utdstc.com/icon/146/9e3/1469e388b7216574661be8eb0d54f9b945d7fe2cbe385b3b1e0310e26427828e:200",
         "href": "",
         "description": "Vue3 + Vue Router"
     },
     {
-        "title": "Mario Game",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXZ6Vw-Br-RRvMstTlTqbeGXw4PNepXRrTzg&usqp=CAU",
+        "title": "Conversor de Moedas",
+        "img": "https://cdn-icons-png.flaticon.com/512/211/211738.png",
         "href": "",
         "description": "JavaScript"
     },
     {
-        "title": "Site de Vídeos",
-        "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/31a97258737059.5a07705b4b565.gif",
+        "title": "Drag and drop",
+        "img": "https://thumbs.dreamstime.com/z/drag-drop-image-photo-picture-icon-hand-isolated-background-applications-web-app-eps-vector-181421197.jpg",
         "href": "",
         "description": "Vue3 + Axios"
     }

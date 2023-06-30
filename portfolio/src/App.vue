@@ -22,31 +22,55 @@ export default {
 
 <template>
   <div class="card-icon">
-    <img class="photo-icon" src="https://camo.githubusercontent.com/5ff76b74ed4be2e2b0a7778ded89b3c510b292db4e73f6ddb5f098dfb63fdb47/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3732353133383937323930303332373432342f3930373435363639373637393838383338342f7069636173696f6e2e636f6d5f65393035386464376633323036333132373533633934333863363033386131302e676966"
-      alt="photo-icon">
-      <div class="title">
-        <h1>Ariane Franchetto</h1>
-      <h2>Front-end Developer</h2>
-      <p>descrição descriçãodescriçãodescrição descriçãodescriçãodescriçãodescriçãovvdescrição descrição descriçãodescriçãov  descrição descriçãodescrição</p>
+
+    <div class="title">
+      
+      <h4 class="text-title">Olá! Eu sou Ariane Franchetto, desenvolvedora Front-end.</h4>
+      <div class="text">
+        <p>Sou desenvolvedora full stack, com foco em front-end, atualmente no 4º semestre da faculdade de sistemas de informação.
+           Com meus 27 anos, estou em busca de novas oportunidades no mercado de trabalho para aplicar minha paixão pela programação e contribuir para projetos desafiadores.
+Adquiri uma sólida base teórica e prática, trabalhando em projetos que envolvem linguagens como HTML, VUE3, JS e CSS, assim como frameworks modernos como React e Angular.
+
+Minha experiência se estende além do front-end, pois também possuo conhecimentos em back-end, incluindo bancos de dados como SQL.
+
+Sou uma pessoa comunicativa e valorizo o trabalho em equipe.
+</p>
       </div>
-     
+
+   
+    </div>
+ 
+   <div class="container-img">
+    <img class="photo-icon"
+     src="https://avatars.githubusercontent.com/u/87048106?s=400&u=8501f7ff454bf492214084006031b3ec986c9c83&v=4"
+      alt="photo-icon">
+      <h2 class="text-title">Ariane Franchetto</h2>
+      <h2 class="text-title">Front-end Developer</h2>
+
+   </div>
   </div>
 
   <div class="itens">
     <Item v-for="service, index in services" :key="index" :item="service" />
-</div>
-<div>
-  <Footer />
-</div>
+  </div>
+
+  <div>
+      <Footer />
+    </div>
 </template>
 
 <style scoped>
-
 .photo-icon {
   width: 200px;
   border-radius: 100px;
-  box-shadow: 12px 13px 31px 8px rgba(0,0,0,0.75);
+  box-shadow: 12px 13px 31px 8px rgba(0, 0, 0, 0.75);
 
+
+}
+
+.text-title { 
+  color: rgba(0, 0, 0, 0.685);
+  margin-top: 15px;
 }
 
 .title {
@@ -54,30 +78,66 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: rgba(0, 0, 0, 0.685);
+
 }
-.card-icon {
+
+.container-img {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+ 
+}
+
+
+.card-icon {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
   color: rgb(221, 233, 244);
+  background-image: linear-gradient(10deg, #fddeea 0, #f2d1e1 16.67%, #e2bdd4 33.33%, #cca4c3 50%, #b48cb4 66.67%, #a07baa 83.33%, #8f71a5 100%);
+  padding: 10px;
 }
 
 .itens {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #fff;
+  padding-bottom: 100px;
 
 }
 
 
 
-@media ( max-width: 600px ) {
-    .photo-icon{
-        width: 100px;
-    }
-    .title{
-      font-size: 12px;
-    }
-}
-</style>
+@media (max-width: 600px) {
+  .photo-icon {
+    width: 100px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .card-icon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-title {
+    font-size: 15px;
+
+
+  }
+
+}</style>
